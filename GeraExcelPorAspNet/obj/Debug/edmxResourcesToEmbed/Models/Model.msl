@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AppEstacionamentoModelStoreContainer" CdmEntityContainer="AppEstacionamentoEntities">
+    <EntitySetMapping Name="Estacionars">
+      <EntityTypeMapping TypeName="AppEstacionamentoModel.Estacionar">
+        <MappingFragment StoreEntitySet="Estacionar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PrecificacaoId" ColumnName="PrecificacaoId" />
+          <ScalarProperty Name="FormaPagamentoId" ColumnName="FormaPagamentoId" />
+          <ScalarProperty Name="UsuarioCriacaoId" ColumnName="UsuarioCriacaoId" />
+          <ScalarProperty Name="UsuarioAlteracaoId" ColumnName="UsuarioAlteracaoId" />
+          <ScalarProperty Name="ValorHora" ColumnName="ValorHora" />
+          <ScalarProperty Name="NumeroVaga" ColumnName="NumeroVaga" />
+          <ScalarProperty Name="PlacaVeiculo" ColumnName="PlacaVeiculo" />
+          <ScalarProperty Name="MarcaVeiculo" ColumnName="MarcaVeiculo" />
+          <ScalarProperty Name="ModeloVeiculo" ColumnName="ModeloVeiculo" />
+          <ScalarProperty Name="DataEntrada" ColumnName="DataEntrada" />
+          <ScalarProperty Name="DataSaida" ColumnName="DataSaida" />
+          <ScalarProperty Name="ValorDevido" ColumnName="ValorDevido" />
+          <ScalarProperty Name="TempoDecorrido" ColumnName="TempoDecorrido" />
+          <ScalarProperty Name="Ativo" ColumnName="Ativo" />
+          <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+          <ScalarProperty Name="DataAlteracao" ColumnName="DataAlteracao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
